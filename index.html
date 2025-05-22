@@ -4,13 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Landpage | LOPANGO</title>
+  <title>Landpage | MTN - Lopango</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/logo-lopango.png" rel="icon">
-  <link href="assets/img/logo-lopango.png" rel="apple-touch-icon">
+  <link href="assets/img/mtn.png" rel="icon">
+  <link href="assets/img/mtn.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -34,22 +34,47 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <img src="assets/img/logo-medium.png" alt="">
-        <h1 class="sitename">Lopango</h1>
+        <img src="assets/img/mtn.png" alt="logo-mtn">
+        <img src="assets/img/logo-lopango.png"  alt="logo-lopango" style="margin-left: 15px;">
+        <h1 class="sitename">  </h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#" class="active">Accueil<br></a></li>
-          <li><a href="#">Masterclass</a></li>
-          <li><a href="#">Santé</a></li>
-          <li><a href="#">Agriculture</a></li>
-          <li><a href="#">WhatsApp Bot</a></li>          
+          <li><a href="index.html" class="active">Accueil<br></a></li>
+          <li class="dropdown"><a href="./masterclass.html"><span>Masterclass</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li class="dropdown"><a href="./masterclass/education/index.html"><span>Education</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="./masterclass/education/index.html#videoGrid">Videos</a></li>
+                  <li><a href="./masterclass/education/index.html#imageGrid">Images</a></li>                  
+                  <li><a href="./masterclass/education/index.html#audioGrid">Audio</a></li>                  
+                  <li><a href="./masterclass/education/index.html#docGrid">Documents</a></li>                  
+                </ul>
+              </li>
+              <li class="dropdown"><a href="./masterclass/sante/index.html"><span>Santé</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="./masterclass/sante/index.html#videoGrid">Videos</a></li>
+                  <li><a href="./masterclass/sante/index.html#imageGrid">Images</a></li>                  
+                  <li><a href="./masterclass/sante/index.html#audioGrid">Audio</a></li>                  
+                  <li><a href="./masterclass/sante/index.html#docGrid">Documents</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="./masterclass/agriculture/index.html"><span>Agriculture</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="./masterclass/agriculture/index.html#videoGrid">Videos</a></li>
+                  <li><a href="./masterclass/agriculture/index.html#imageGrid">Images</a></li>                  
+                  <li><a href="./masterclass/agricluture/index.html#audioGrid">Audio</a></li>                  
+                  <li><a href="./masterclass/agriculture/index.html#docGrid">Documents</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="#">Se connecter</a>
+      <a class="btn-getstarted" href="https://www.mtn.cg/">CTA</a>
     </div>
   </header>
 
@@ -65,7 +90,7 @@
 
       <div class="container">
 
-        <div class="row gy-4">
+        <div class="row gy-4 justify-content-center">
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item item-orange position-relative">
@@ -75,7 +100,7 @@
                 </svg>
                 <i class="bi bi-easel"></i>
               </div>
-              <a href="#" class="stretched-link">
+              <a href="masterclass.html" class="stretched-link">
                 <h3> Masterclass </h3>
               </a>
               <p>
@@ -83,7 +108,7 @@
               </p>
             </div>
           </div><!-- End Service Item -->
-
+          <!--
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item item-red position-relative">
               <div class="icon">
@@ -99,7 +124,7 @@
               </p>
             </div>
           </div><!-- End Service Item -->
-
+          <!--
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item item-teal position-relative">
               <div class="icon">
@@ -131,6 +156,7 @@
               </p>
             </div>
           </div><!-- End Service Item -->
+
         </div>
 
       </div>
@@ -145,12 +171,15 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Lopango</span>
+            <span class="sitename">MTN</span>
           </a>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius harum omnis quis unde, suscipit, debitis doloremque, facilis sapiente at doloribus reiciendis voluptatum ipsum fugit asperiores perspiciatis rem id earum soluta.</p>
+          <p>
+          </p>
           <div class="social-links d-flex mt-4">
-            <a href="https://www.facebook.com/LopangoApp/?locale=fr_FR""><i class="bi bi-facebook"></i></a>
-            <a href="https://www.linkedin.com/company/lopango-cg/?originalSubdomain=cg"><i class="bi bi-linkedin"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href=""><i class="bi bi-whatsapp"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
           </div>
         </div>
       </div>
